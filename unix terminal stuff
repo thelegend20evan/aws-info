@@ -1,6 +1,6 @@
 # add link to discord
 
-
+tab = autocomplete
 cd = change dir
 ls = list or "let's see"
 ls -a = list all (files that start with a dot are hidden by default)
@@ -37,7 +37,18 @@ grep (text) * = print files and text where that specific text is found
 grep is case sensitive
 grep -i removes case sensitivity 
 grep --help & man grep = show how to use grep
+
 xargs
+rm -r -f
+rm -rf can be dangerous!
+sudo
+
 sleep (# of secs) = delay command
 time = time a command
 time sleep 2 = shows sleep 2 took 2 secs to run
+vim (file) = stronger editor for file
+vim cheatsheet in discord
+every unix system has vim, which you can configure to your liking
+:q to exit vim
+when in tmux: to exit: press ctrl+b and then d (detach) = exits tmux to normal terminal
+For tmux, any attempt to communicate directly to tmux involves typing Ctrl-b (the 'prefix key')
